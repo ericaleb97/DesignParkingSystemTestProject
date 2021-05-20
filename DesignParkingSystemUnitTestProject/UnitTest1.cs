@@ -4,7 +4,56 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace DesignParkingSystemUnitTestProject
 {
     [TestClass]
-    public class ParkingSystemUnitTest
+    public class PositiveParkingSpacesTest
+    {
+        [TestMethod]
+        public void SmallPositiveParkingSpace()
+        {
+            int smallParkingSpace = 5;
+            int mediumParkingSpace = 8;
+            int bigParkingSpace = 2;
+
+            var parkingSystem = new ParkingSystem(bigParkingSpace, mediumParkingSpace, smallParkingSpace);
+
+            bool expectedSmallParkingSpaceResult = true;
+            bool actualSmallParkingSpaceResult = parkingSystem.AddCar(3);
+
+            Assert.AreEqual(expectedSmallParkingSpaceResult, actualSmallParkingSpaceResult);
+        }
+
+        [TestMethod]
+        public void MediumPositiveParkingSpace()
+        {
+            int smallParkingSpace = 1;
+            int mediumParkingSpace = 3;
+            int bigParkingSpace = 6;
+
+            var parkingSystem = new ParkingSystem(bigParkingSpace, mediumParkingSpace, smallParkingSpace);
+
+            bool expectedMediumParkingSpaceResult = true;
+            bool actualMediumParkingSpaceResult = parkingSystem.AddCar(2);
+
+            Assert.AreEqual(expectedMediumParkingSpaceResult, actualMediumParkingSpaceResult);
+        }
+
+        [TestMethod]
+        public void BigPositiveParkingSpace()
+        {
+            int smallParkingSpace = 10;
+            int mediumParkingSpace = 5;
+            int bigParkingSpace = 6;
+
+            var parkingSystem = new ParkingSystem(bigParkingSpace, mediumParkingSpace, smallParkingSpace);
+
+            bool expectedBigParkingSpaceResult = true;
+            bool actualBigParkingSpaceResult = parkingSystem.AddCar(1);
+
+            Assert.AreEqual(expectedBigParkingSpaceResult, actualBigParkingSpaceResult);
+        }
+    }
+
+    [TestClass]
+    public class NegativeParkingSpacesTest
     {
         [TestMethod]
         public void SmallNegativeParkingSpaceOutOfSpots()
@@ -50,7 +99,11 @@ namespace DesignParkingSystemUnitTestProject
 
             Assert.AreEqual(expectedBigParkingSpaceResult, actualBigParkingSpaceResult);
         }
+    }
 
+    [TestClass]
+    public class InvalidInputsTest
+    {
         [TestMethod]
         public void SmallParkingSpaceInvalidValue()
         {
