@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignParkingSystem", "DesignParkingSystem\DesignParkingSystem.csproj", "{B598AC56-EED9-49B1-AC03-9503A0EA1C9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC26806E-3CA4-41D5-9D3B-7F546B1BDFE5}"
+	ProjectSection(SolutionItems) = preProject
+		TestSettings1.testsettings = TestSettings1.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignParkingSystemUnitTestProject", "DesignParkingSystemUnitTestProject\DesignParkingSystemUnitTestProject.csproj", "{F57F1FC3-B385-4EA6-8562-1275D37CA5DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B598AC56-EED9-49B1-AC03-9503A0EA1C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B598AC56-EED9-49B1-AC03-9503A0EA1C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B598AC56-EED9-49B1-AC03-9503A0EA1C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B598AC56-EED9-49B1-AC03-9503A0EA1C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57F1FC3-B385-4EA6-8562-1275D37CA5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57F1FC3-B385-4EA6-8562-1275D37CA5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57F1FC3-B385-4EA6-8562-1275D37CA5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57F1FC3-B385-4EA6-8562-1275D37CA5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1421B3E-04FA-4A50-AC2F-664F5697934E}
+	EndGlobalSection
+EndGlobal
