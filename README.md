@@ -7,7 +7,7 @@ However, the user then calls the class called AddCar and in it, they specify the
 ## Examples
 In the environment, let's instantiate the class as so;
 
-var parkingSystem = new ParkingSystem(2, 1, 3);
+            var parkingSystem = new ParkingSystem(2, 1, 3);
 
 Next, let's add some car types to parking spaces and see what is returned.
 
@@ -20,7 +20,7 @@ Hit the run button, and now we will see all statements will be True.
 
 However, if we were to instantiate the class like this:
 
-var parkingSystem = new ParkingSystem(0, 1, 3);
+            var parkingSystem = new ParkingSystem(0, 1, 3);
 
 and ran the same code as before
 
