@@ -1,7 +1,7 @@
 # DesignParkingSystemTestProject
 This application takes a user's input for a number of assigned parking spaces per type of car (Big = 1, Medium = 2, Small = 3). 
 This is initialized in the car's constructor when instantiating the class object called ParkingSystem.
-However, the user then calls the method called AddCar and in it, they specify the car type (1, 2, or 3) and the method will return a true or false statement; true being that there are enough parking spaces for that car type left, or false, that there aren't.
+However, the user then calls the method called AddCar() and in it, they specify the car type (1, 2, or 3) and the method will return a true or false statement; true being that there are enough parking spaces for that car type left, or false, that there aren't.
 
 
 ## Examples
