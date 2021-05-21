@@ -30,7 +30,9 @@ and ran the same code as before
             Console.WriteLine(parkingSystem.AddCar(3));
             Console.WriteLine(parkingSystem.AddCar(1));
             
-we would see the results as follows: False, True, True, False.
+we would see the results as follows: 
+
+            False, True, True, False.
 
 ## Prerequisites
 
